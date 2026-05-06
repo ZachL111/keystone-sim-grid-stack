@@ -1,0 +1,6 @@
+name,focus,signal,slack,drag,confidence,score,lane
+baseline,input pressure,67,20,32,75,133,watch
+stress,state drift,82,20,18,65,195,ship
+edge,review cost,66,37,13,50,180,ship
+recovery,decision risk,72,45,8,46,211,ship
+stale,input pressure,60,28,22,45,127,watch

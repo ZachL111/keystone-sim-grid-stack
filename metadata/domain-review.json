@@ -1,0 +1,73 @@
+{
+  "repo": "keystone-sim-grid-stack",
+  "language": "C#",
+  "category": "Simulations",
+  "goal": "Create a C# reference implementation for grid workflows, centered on incremental indexing, append-only fixtures, and checkpoint recovery checks.",
+  "review_model": {
+    "terms": [
+      "input pressure",
+      "state drift",
+      "review cost",
+      "decision risk"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "input pressure",
+      "signal": 67,
+      "slack": 20,
+      "drag": 32,
+      "confidence": 75,
+      "score": 133,
+      "lane": "watch"
+    },
+    {
+      "name": "stress",
+      "focus": "state drift",
+      "signal": 82,
+      "slack": 20,
+      "drag": 18,
+      "confidence": 65,
+      "score": 195,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "review cost",
+      "signal": 66,
+      "slack": 37,
+      "drag": 13,
+      "confidence": 50,
+      "score": 180,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "decision risk",
+      "signal": 72,
+      "slack": 45,
+      "drag": 8,
+      "confidence": 46,
+      "score": 211,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "input pressure",
+      "signal": 60,
+      "slack": 28,
+      "drag": 22,
+      "confidence": 45,
+      "score": 127,
+      "lane": "watch"
+    }
+  ]
+}
