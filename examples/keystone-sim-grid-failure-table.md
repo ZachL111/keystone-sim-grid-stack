@@ -1,0 +1,18 @@
+# Keystone Sim Grid Stack Failure Table
+
+| Case | Focus | Expected Lane |
+| --- | --- | --- |
+| g001 | input pressure | ship |
+| g002 | state drift | hold |
+| g003 | review cost | watch |
+| g004 | decision risk | ship |
+| g005 | input pressure | watch |
+| g006 | state drift | ship |
+| g007 | review cost | ship |
+| g008 | decision risk | watch |
+| g009 | input pressure | hold |
+| g010 | state drift | ship |
+| g011 | review cost | watch |
+| g012 | decision risk | hold |
+
+Use this table when a verifier failure is hard to read from the raw CSV.

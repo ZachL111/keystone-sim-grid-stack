@@ -1,0 +1,17 @@
+{
+  "repo": "keystone-sim-grid-stack",
+  "thresholds": {
+    "signal": 2,
+    "slack": 1,
+    "confidence": 1,
+    "drag": 2,
+    "ship": 198,
+    "watch": 126
+  },
+  "terms": [
+    "input pressure",
+    "state drift",
+    "review cost",
+    "decision risk"
+  ]
+}
